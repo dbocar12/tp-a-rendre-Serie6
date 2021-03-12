@@ -29,7 +29,6 @@ public class exo14 {
         System.out.println("Display the list of the string with first letter of each element in UpperCase:");
         strings.stream()
                 .map(s -> s.substring(0, 1).toUpperCase() + s.substring(1))
-                .distinct()
                 .forEach(System.out::println);
         System.out.println("==================================================================");
 
